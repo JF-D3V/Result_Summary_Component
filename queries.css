@@ -1,0 +1,7 @@
+@media (min-width: 37.5em) {
+  .container {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+}

@@ -20,14 +20,13 @@
   --pale-blue: hsl(221, 100%, 96%);
   --light-lavendar: hsl(241, 100%, 89%);
   --dark-gray-blue: hsl(224, 30%, 27%);
-
-  --para-font-size: 18rem;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: inherit;
 }
 
 html {
@@ -35,5 +34,22 @@ html {
 }
 
 body {
-  font-family: "hankengrotesk", sans-serif;
+  font-family: "hanken grotesk", sans-serif;
+  font-size: 1.8rem;
+}
+
+.results-component {
+  max-width: 64rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.results-component-left {
+  text-align: center;
+  background-color: blue;
+}
+
+.results-component-right {
+  background-color: red;
 }

@@ -40,13 +40,50 @@ body {
 
 .results-component {
   max-width: 64rem;
+  border-radius: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .results-component-left {
+  text-align: center;
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+
+  padding: 2.4rem;
   background-color: lightblue;
 }
 .results-component-right {
   background-color: lightgreen;
+}
+
+.component-header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.result-display {
+}
+.score {
+  display: grid;
+  place-content: center;
+  width: 16rem;
+  margin-inline: auto;
+  aspect-ratio: 1 / 1;
+  border-radius: 100px;
+
+  background-color: red;
+}
+
+.score span {
+  display: block;
+  line-height: 1;
+  font-size: 7.2rem;
+  font-weight: 800;
+}
+
+.result-msg {
+  font-size: 3.2rem;
+  font-weight: bold;
 }

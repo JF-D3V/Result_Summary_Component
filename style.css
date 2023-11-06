@@ -40,9 +40,11 @@ body {
 
 .results-component {
   max-width: 64rem;
-  border-radius: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .results-component-left {

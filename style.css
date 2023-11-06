@@ -40,42 +40,13 @@ body {
 
 .results-component {
   max-width: 64rem;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .results-component-left {
-  text-align: center;
-  background-color: blue;
+  background-color: lightblue;
 }
-
 .results-component-right {
-  background-color: red;
-}
-
-.component-header {
-  font-size: 2.4rem;
-  font-weight: 400;
-}
-
-.result-display {
-  display: inline-block;
-  width: 50%;
-  height: 50%;
-  background-color: green;
-}
-
-.result-display span {
-  font-size: 7.2rem;
-  font-weight: 800;
-}
-
-.result-msg {
-  font-size: 2.8rem;
-  font-weight: 500;
-}
-
-.result-summary-body {
-  font-weight: 400;
+  background-color: lightgreen;
 }

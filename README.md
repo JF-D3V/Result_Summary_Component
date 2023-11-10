@@ -18,7 +18,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [(https://your-solution-url.com)]
 - Live Site URL: [(https://jf-d3v.github.io/Result_Summary_Component/)]
 
 ## My process
